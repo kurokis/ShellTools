@@ -4,6 +4,26 @@
 Some tools to make life easier.
 
  - pifinder.sh: searches for Raspberry Pi in wireless network
+ - rpm.sh: starts MultiMarkerServer then starts RasPiMain
+
+## Directory structure
+
+__Ubuntu__
+anywhere/
+|----pifinder.sh
+
+__Raspberry Pi__
+cpp_ws/
+|----RasPiMain
+|   |----RasPiMain
+|   |   |----build
+|   |       |----main
+|   |----rpm.sh
+|
+|----MarkerServer
+|   |----MultiMarkerServer
+|       |----build
+|           |----multimarkerserver
 
 
 ## How to use
