@@ -6,6 +6,7 @@
 # for Ubuntu 15 or later, interface name is wlo1
 # for Ubuntu 14, interface name is wlan0
 
+
 # run arp-scan
 echo ""
 echo "Finding Raspberry Pi in your network..."
@@ -31,4 +32,9 @@ if [[ -z "$rpi_ip_address" ]]; then
 else
 	echo ""
 	echo "Raspberry Pi found at" $rpi_ip_address
+	echo "Connecting..."
+	ssh pi@$rpi_ip_address
 fi
+
+
+
