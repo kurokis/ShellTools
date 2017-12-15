@@ -11,12 +11,15 @@ Some tools to make life easier.
 
 __Ubuntu__
 
+```
 anywhere/
 |----pifinder.sh
 |----piconnect.sh
+```
 
 __Raspberry Pi__
 
+```
 cpp_ws/
 |----RasPiMain
 |   |----RasPiMain
@@ -28,12 +31,14 @@ cpp_ws/
 |   |----MultiMarkerServer
 |       |----build
 |           |----multimarkerserver
+```
 
 
 ## How to use
 
-Use chmod +x to give execute permission (first time only), then run the script.
+Use ``chmod +x`` to give execute permission (first time only), then run each script.
 
+Example:
 ```
 $ chmod +x pifinder.sh
 $ ./pifinder.sh
