@@ -1,4 +1,4 @@
 #!/bin/bash
 
-../MarkerServer/MarkerServer/build/markerserver & sleep 1s; ./RasPiMain/build/main && fg
+cd ../MarkerServer/MarkerServer/build/; ./markerserver & cd ../../../RasPiMain/RasPiMain/build; sleep 1s; ./main && fg
 
