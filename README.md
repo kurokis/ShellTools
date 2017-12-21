@@ -21,11 +21,11 @@ __Raspberry Pi__
 
 ```
 cpp_ws/
+|----rpm.sh
 |----RasPiMain
 |   |----RasPiMain
 |   |   |----build
 |   |       |----main
-|   |----rpm.sh
 |
 |----MarkerServer
 |   |----MultiMarkerServer
